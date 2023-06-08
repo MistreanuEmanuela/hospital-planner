@@ -1,0 +1,161 @@
+.formular
+{
+    text-align: center;
+    width: 50%; 
+    background-color: rgba(255, 255, 255, 0.941);
+    font-size: 2.5vb;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    font-weight: bold;
+}
+label
+{
+   display:inline-table;
+   padding-top:2%;
+   padding-bottom: 2%;
+   width: 20%;
+}
+input,select
+{
+    width: 50%;
+    font-size: 3vb;
+    padding: 1%;
+    background-color: rgba(255, 255, 255, 0.316);
+    border-radius: 10px;
+    grid-column: 2;
+    grid-row: auto;
+}
+.submit
+{
+    width: fit-content;
+    align-self: center;
+    background-color:rgba(62, 216, 180, 0.847);
+    color:rgb(0, 0, 0);
+    padding: 1%;
+    font-size: 3vh;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.submit:hover
+{
+    background-color:rgba(18, 118, 95, 0.847);
+}
+.app
+{
+    padding: 2%;
+    text-align: center;
+    width: 50%;
+    margin:5%;
+    margin-left: 20%;
+    background-color: rgba(126, 141, 226, 0.614);
+    font-size: 4vb;
+    display: flex;
+    flex-direction: column;
+}
+.info
+{
+    background-color: rgba(102, 79, 166, 0.856);
+    color:rgb(255, 255, 255);
+    font-size: 2vi;
+    margin: 3%;
+    margin-top:2%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+}
+.text
+{
+   margin-left:15%;
+}
+.formularr
+{
+    text-align: center;
+    width: 50%; 
+    background-color: rgba(255, 255, 255, 0.941);
+    font-size: 3vb;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    font-weight: bold;
+}
+.delete
+{
+    width: fit-content;
+    align-self: center;
+    background-color:rgba(232, 48, 48, 0.847);
+    color:rgb(0, 0, 0);
+    padding: 1%;
+    font-size: 3vh;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top:5%;
+}
+.delete:hover
+{
+    background-color:rgba(236, 0, 0, 0.847);
+}
+.add
+{
+    background-color: #015b4a;
+    color:white;
+    font-size: 2vi;
+    margin-top: 5%;
+    margin-left:20%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+.add:hover
+{
+    background-color:#003c31
+}
+.textt
+{
+   margin-left:1%;
+   text-align: center;
+}
+.data
+{
+    padding: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.infoForm
+{
+    width: 60%;
+    background-image: url(infoo.jpg);
+    background-size: cover;
+    font-size: 2vi;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: baseline;
+   
+}
+.infoForm3
+{
+    width: 60%;
+    background-image: url(checked.jpg);
+    background-size: cover;
+    font-size: 2vi;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: baseline;
+   
+}
+.error
+{
+    color:Red;
+}
+.infoForm2
+{
+    width: 60%;
+    background-image: url(req.jpg);
+    background-size: cover;
+    font-size: 2vi;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: baseline;
+   
+}

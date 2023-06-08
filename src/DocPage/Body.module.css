@@ -1,0 +1,151 @@
+.form
+{
+
+    text-align: center;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    font-size: 4vb;
+    display: flex;
+   flex-direction: column;
+}
+.formular
+{
+   padding-top:10%;
+    text-align: center;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    font-size: 4vb;
+    display: flex;
+   flex-direction: column;
+
+}
+.submit
+{
+    width: fit-content;
+    align-self: center;
+    background-color:rgba(36, 122, 83, 0.847);
+    color:rgb(0, 0, 0);
+    padding: 1%;
+    font-size: 3vh;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top:5%;
+    width: 40%;
+}
+
+.submit:hover
+{
+    background-color: rgba(21, 92, 16, 0.847);
+}
+.table{
+    width: 80%;
+    background-color: rgb(175, 169, 228);
+    color:rgb(0, 0, 0);
+    font-size:2.5vh;
+    margin-left:10%;
+    margin-top:2%;
+    margin-bottom: 8%;
+}
+.lista
+{
+    background-color: wheat;
+}
+td
+{
+    text-align: center;
+}
+.butnext{
+    width: auto;
+    padding: 1%;
+    background-color: rgb(4, 82, 69);
+    color:white;
+    font-size:3vh;
+    margin-left:8%;
+    border-radius: 10px;
+    margin-left:60%;
+}
+.butprev{
+    width: auto;
+    padding: 1%;
+    background-color: rgb(4, 82, 69);
+    color:white;
+    font-size:3vh;
+    margin-left:8%;
+    border-radius: 10px;
+    margin-left:10%;
+}
+.but
+{
+    width: auto;
+    padding: 1%;
+    background-color: rgb(4, 82, 69);
+    color:white;
+    font-size:3vh;
+    margin-left:8%;
+    border-radius: 10px;
+    margin-left:82%;
+}
+.free
+{
+   appearance: none;
+   background-color: transparent;
+    background-image: url("p.png");
+    background-size:contain;
+    width: 80px;
+    height: 80px;
+    margin-left: 94%;
+    border: none;
+}
+.data
+{
+    padding: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.data2
+{
+    padding: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-left: 5%;
+}
+.infoForm
+{
+    width: 50%;
+    height: 600px;
+    background-image: url(doctor.jpg);
+    background-size: cover;
+    font-size: 2vi;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: baseline;
+
+}
+.textt
+{
+    font-weight: bold;
+    font-size: 6vh;
+    margin-top: 15%;
+}
+.casete
+{
+    width: 60%;
+    border-color: rgb(178, 173, 173);
+    border-radius: 5px;
+    border-width: 1%;
+    margin-top:5%;
+}
+.infoForm2
+{
+    width: 50%;
+    height: 400px;
+    background-image: url(time.png);
+    background-size: cover;
+    font-size: 2vi;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: baseline;
+}

@@ -1,0 +1,54 @@
+body
+{
+    background-image: url("C:\Users\My Pc\Downloads\pexels-pixabay-40568.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.butoane
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.but1
+{
+   background-image: url("fst.jpg");   
+   background-repeat: no-repeat;
+   background-size: cover;
+   width:329px;
+   margin-left: 6%;
+   margin-right: 6%;
+   height:440px;
+   border-radius:5px;
+   margin-top:5%;
+   border: none;
+   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+.but2
+{
+   background-image: url("sec.jpg");   
+   background-repeat: no-repeat;
+   background-size: cover;
+   width:329px;
+   margin-left: 6%;
+   margin-right: 6%;
+   height:440px;
+   border-radius:5px;
+   margin-top:5%;
+   border: none;
+   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+.login
+{
+   appearance: none;
+   background-color: transparent;
+    background-image: url("login.png");
+    background-size:contain;
+    width: 80px;
+    height: 80px;
+    margin-left: 94%;
+    border: none;
+}
